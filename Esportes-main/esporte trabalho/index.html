@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SportsArena</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__button">
+      <label for="menu" class="container__label">
+        <span class="header_menu-icon container_image"></span>
+      </label>
+      <ul class="menu-list">
+        <li class="menu-list__title">Esportes</li>
+        <li class="menu-list_item"><a href="#" class="menu-list_link">Futebol</a></li>
+        <li class="menu-list_item"><a href="#" class="menu-list_link">Basquete</a></li>
+        <li class="menu-list_item"><a href="#" class="menu-list_link">Tennis</a></li>
+        <li class="menu-list_item"><a href="#" class="menu-list_link">Baseball</a></li>
+        <li class="menu-list_item"><a href="#" class="menu-list_link">Golf</a></li>
+      </ul>
+      <img src="img/Logo.svg" alt="Sports Arena Logo" class="container__image">
+      <h1 class="container_title"><b class="container_title--bold">Sports</b>Arena</h1>
+
+      <ul class="options">
+        <input type="checkbox" id="options-menu" class="options__button">
+        <label for="options-menu" class="options__label">
+          <li class="options__item">Eventos</li>
+        </label>
+        <ul class="menu-list">
+          <li class="menu-list_item"><a href="#" class="menu-list_link">Proximos Jogos</a></li>
+          <li class="menu-list_item"><a href="#" class="menu-list_link">Scores</a></li>
+          <li class="menu-list_item"><a href="#" class="menu-list_link">Equipes</a></li>
+          <li class="menu-list_item"><a href="#" class="menu-list_link">Jogadores</a></li>
+        </ul>
+        <li class="options_item"><a href="#" class="options_link">Favoritos</a></li>
+        <li class="options_item"><a href="#" class="options_link">Perfil</a></li>
+      </ul>
+
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favorites.svg" alt="Favorites" class="container_image container_image-transparent"></a>
+      <a href="#" class="container__link">
+        <img src="img/ShoppingCart.svg" alt="Loja do site " class="container__image">
+        <p class="container__text">Meu Carrinho</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="img/User.svg" alt="" class="container__image">
+        <p class="container__text"></p>
+      </a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__title">Pronto para o proximo jogo ?</h2>
+    <p class="banner__text">todos os ultimos jogo esportivos e noticias aqui !</p>
+    <input type="search" class="banner__search" placeholder="Qual e o seu proximo jogo?">
+  </section>
+
+  <section class="carousel">
+    <h2 class="carousel__title">Principais Jogos</h2>
+
+    <div class="carousel__container">
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/Football.svg" alt="Futebol"></div>
+          <div class="swiper-slide"><img src="img/Basketball.svg" alt="Basquete"></div>
+          <div class="swiper-slide"><img src="img/Tennis.svg" alt="Tennis"></div>
+          <div class="swiper-slide"><img src="img/Baseball.svg" alt="Baseball"></div>
+          <div class="swiper-slide"><img src="img/Golf.svg" alt="Golf"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="card">
+        <div class="card__description">
+          <div class="description">
+            <h3 class="description__title">Partida em destaque </h3>
+            <h2 class="description__title-game">Final da copa do mundo </h2>
+            <p class="description__text">
+              ASSISTA A EMOCIONANTE FINAL DA COPA DO MUNDO
+            </p>
+          </div>
+          <img src="img/WorldCup.svg" class="description__image">
+        </div>
+        <div class="card__buttons">
+          <ul class="buttons">
+            <li class="buttons__item"><img src="img/Favorites.svg" alt="Adicionar ao favorito "></li>
+            <li class="buttons__item"><img src="img/ShoppingCart.svg" alt="Horarios"></li>
+          </ul>
+          <a href="#" class="buttons__anchor">Saber mais </a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="carousel">
+    <h2 class="carousel__title">Melhores Jogadores</h2>
+
+    <div class="carousel__container">
+      <div class="swiper">
+        <div class="swiper-pagination"></div>
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="img/Player1.svg" alt="Lionel Messi"></div>
+          <div class="swiper-slide"><img src="img/Player2.svg" alt="Lebron James"></div>
+          <div class="swiper-slide"><img src="img/Player3.svg" alt="Novak Djokovic"></div>
+          <div class="swiper-slide"><img src="img/Player4.svg" alt="Shohei Ohtani"></div>
+          <div class="swiper-slide"><img src="img/Player5.svg" alt="Jon Rahm"></div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="card">
+        <div class="card__description">
+          <div class="description">
+            <h3 class="description__title">Jogador do mes </h3>
+            <h2 class="description__title-player">Alex Johnson</h2>
+            <p class="description__text">
+              Artilheiro da temporada, Alex Johnson lidera com habilidades incomparáveis.
+            </p>
+          </div>
+          <img src="img/AlexJohnson.svg" class="description__image">
+        </div>
+        <div class="card__buttons">
+          <ul class="buttons">
+            <li class="buttons__item"><img src="img/Favorites.svg" alt="Adicionar ao Favoritos"></li>
+            <li class="buttons__item"><img src="img/ShoppingCart.svg" alt="Historico do jogador "></li>
+          </ul>
+          <a href="#" class="buttons__anchor">Saber mais</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="topics">
+    <h2 class="topics__title">TOPICOS VISUALIZADOS RECENTEMNTE </h2>
+    <ul class="topics__list">
+      <li class="topics_item"><a href="#" class="topics_link">Fitness</a></li>
+      <li class="topics_item"><a href="#" class="topics_link">Nutriçao</a></li>
+      <li class="topics_item"><a href="#" class="topics_link">Treinos</a></li>
+      <li class="topics_item"><a href="#" class="topics_link">Hitoricos de Atletas</a></li>
+      <li class="topics_item"><a href="#" class="topics_link">Avaliaçaode equipamentos</a></li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <div class="contact__description">
+      <h2 class="contact__title">Fique atualizado!</h2>
+      <p class="contact__text">
+        Receba atualizações sobre eventos esportivos, notícias, promoções e muito mais.
+      </p>
+    </div>
+    <input type="email" placeholder="Enter your email" class="contact__email">
+  </section>
+
+  <hr />
+
+  <footer class="footer">
+    <h2 class="footer__title">Sports Arena</h2>
+    <ul class="footer-list">
+      <li class="footer-list__
